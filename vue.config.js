@@ -1,10 +1,11 @@
+
 'use strict'
 const path = require('path')
 
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
-
+// 6666666666666666666666666666666666666666666666666666
 const name = process.env.VUE_APP_TITLE || '若依管理系统' // 网页标题
 
 const port = process.env.port || process.env.npm_config_port || 80 // 端口
@@ -26,7 +27,7 @@ module.exports = {
   // 如果你不需要生产环境的 source map，可以将其设置为 false 以加速生产环境构建。
   productionSourceMap: false,
   // webpack-dev-server 相关配置
-  
+
   devServer: {
     host: '0.0.0.0',
     port: port,
